@@ -1,0 +1,86 @@
+
+
+.card-body{
+    width:80%;
+    max-width: 500px;
+    max-height: 90%;
+    font-weight: 300;
+    min-width: 300px;
+    font: size 1.05rem;
+    line-height: 1.6;
+    font-family: 'Poppins',sans-serif;
+
+    position: fixed;
+    top:50%;
+    left: 50%;
+    background-color:#fff;
+    
+    justify-self: center;
+    
+    
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    transform: translate(-50%,-50%);
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 20px -12px black ;
+    overflow-y: scroll;
+
+}
+
+h3{
+    color: #02cfb4;
+    
+}
+
+img{
+    width: 50px;
+}
+
+.card-body::-webkit-scrollbar{
+    width: 10px;
+}
+
+.meal-info::-webkit-scrollbar-thumb{
+    background: #b4afaf;
+    border-radius: 2rem;
+}
+
+input{
+    padding:0 ;
+    font-size: 1.1em;
+    font-family: inherit;
+    outline: 0;
+    border:2px solid  rgb(39, 226, 195);
+    width: 100%;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.complaint{
+    
+    min-height: 100px;
+    padding:0 ;
+    font-size: 1.1em;
+    font-family: inherit;
+    outline: 0;
+    border:2px solid  rgb(39, 226, 195);
+    width: 100%;
+    border-top-left-radius: 0.8rem;
+    border-bottom-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+}
+
+Button{
+    font-family: inherit;
+    cursor: pointer;
+    outline:0;
+    font-size: 1.05rem;
+}
